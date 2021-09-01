@@ -16,3 +16,14 @@
     font-size: 2vw;
     width: 50%
 }
+
+.meditation_image {
+    padding-left: 40px;
+    width: 45%;
+}
+
+.meditation_text {
+    font-family: Inter;
+    font-size: 2vw;
+    width: 50%
+}
