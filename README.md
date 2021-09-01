@@ -28,3 +28,5 @@ In the midst of this exploration as to what we can do to better ourselves, a set
 Meditation is scientifically proven to enhance a person's well-being. That being said, it remains a practice practiced by surprisingly few. This is due to inefficient management when it comes to practicing the habit itself. People fail to follow a systematic approach towards meditation. The problem thus presents itself as the lack of a management system for the habit of meditation. There exists a need for a management tool to assist an aspiring practitioner.
 The tool we propose is a meditation management system. It allows the user to not only browse through meditation courses, but also engage with the system. The system will encourage the user along the way with personalized motivational messages and a pleasing user interface.
 
+## Links
+Wireframe: https://wireframe.cc/Evo1Pi
