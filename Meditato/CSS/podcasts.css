@@ -1,8 +1,16 @@
 .heading {
   text-align: center;
-  font-size: 24px;
+  font-size: 38px;
   margin-top: 50px;
-  font-family: sans-serif;
+  font-family: "Segoe UI";
+}
+.listening {
+  text-align: left;
+  width: 500px;
+  height: 400px;
+}
+.banner {
+  text-align: center;
 }
 #table {
   margin-left: auto;
@@ -20,7 +28,7 @@
   transform: scale(1.1);
 }
 .images:hover h3 {
-  color: darkgoldenrod;
+  color: lightcoral;
   text-decoration: underline;
 }
 table {
@@ -33,20 +41,36 @@ table {
   margin-right: 10px;
   margin-top: 50px;
   margin-bottom: 90px;
+  border-radius: 50px;
+  width: 400px;
+  height: 500px;
   /* transition: transform 0.5s ease; */
 }
-/* pics :hover {
-  transform: scale(1.5);
-} */
+.description {
+  font-family: "Segoe UI";
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  color: darkred;
+}
 h3 {
   text-align: center;
 }
 #main-table {
-  background-color: darkolivegreen;
+  align-items: center;
 }
 
 a {
+  font-family: "Segoe UI";
+  color: darkred;
+  font-size: 20px;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 15px;
   font-family: sans-serif;
-  color: black;
-  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
 }
