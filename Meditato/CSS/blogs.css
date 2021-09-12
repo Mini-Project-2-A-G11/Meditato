@@ -1,3 +1,120 @@
-body {
-  margin: 0;
+.heading {
+  text-align: center;
+  font-size: 33px;
+  margin-top: 50px;
+  font-family: "Segoe UI";
+}
+.banner {
+  text-align: center;
+}
+#table {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+.images {
+  margin-left: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+.images img {
+  transition: transform 0.5s ease;
+}
+.images:hover img {
+  transform: scale(1.1);
+}
+table {
+  margin-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.pics {
+  display: block;
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* transition: transform 0.5s ease; */
+}
+.description {
+  font-family: consolas;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  color: darkred;
+}
+h3 {
+  text-align: center;
+}
+#main-table {
+  align-items: center;
+}
+
+a {
+  font-family: "Segoe UI";
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: black;
+  background-color: lightblue;
+}
+.para {
+  text-align: left;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* fdjaljfla */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 500px;
+  height: 500px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  width: 500px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

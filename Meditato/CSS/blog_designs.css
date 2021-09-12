@@ -1,0 +1,57 @@
+.container {
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: sans-serif;
+  font-size: 34px;
+}
+h3 {
+  font-family: sans-serif;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 40px;
+}
+.contents {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  font-family: sans-serif;
+  width: 1200px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contents img {
+  padding-top: 50px;
+  padding-left: 310px;
+}
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 130rem;
+  line-height: 40px;
+}
+.inner-headings {
+  font-size: 25px;
+  font-family: sans-serif;
+  padding-left: 70px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: darkolivegreen;
+}
+.paras {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
