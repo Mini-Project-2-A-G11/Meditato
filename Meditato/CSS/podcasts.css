@@ -4,6 +4,11 @@
   margin-top: 50px;
   font-family: "Segoe UI";
 }
+#podcast-section {
+  font-weight: bold;
+  color: darkgreen;
+}
+
 .listening {
   text-align: left;
   width: 500px;
@@ -49,8 +54,8 @@ table {
   /* transition: transform 0.5s ease; */
 }
 .description {
-  font-family: consolas;
-  font-size: 35px;
+  font-family: sans-serif;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   margin-top: 40px;
@@ -63,7 +68,7 @@ h3 {
   align-items: center;
 }
 
-a {
+table a {
   font-family: "Segoe UI";
   color: darkred;
   font-size: 20px;

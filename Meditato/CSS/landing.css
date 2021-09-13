@@ -1,29 +1,33 @@
 .welcome_image {
-    padding-right: 40px;
-    width: 45%;
+  padding-right: 40px;
+  width: 45%;
 }
-  
+
 .welcome_heading {
-    font-family: Product Sans;
-    color: darkslateblue;
-    font-size: 4.5vw;
-    width: 45%;
-    margin-bottom: 20px;
+  font-family: Product Sans;
+  color: darkslateblue;
+  font-size: 4.5vw;
+  width: 45%;
+  margin-bottom: 20px;
 }
-  
+
 .welcome_para {
-    font-family: Inter;
-    font-size: 2vw;
-    width: 50%
+  font-family: Inter;
+  font-size: 2vw;
+  width: 50%;
 }
 
 .meditation_image {
-    padding-left: 40px;
-    width: 45%;
+  padding-left: 40px;
+  width: 45%;
 }
 
 .meditation_text {
-    font-family: Inter;
-    font-size: 2vw;
-    width: 50%
+  font-family: Inter;
+  font-size: 2vw;
+  width: 50%;
+}
+#home-section {
+  font-weight: bold;
+  color: darkgreen;
 }

@@ -4,28 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meditato - Blogs</title>
-    <link rel="stylesheet" href="./CSS/nav_bar.css" />
+    <title>Meditato</title>
+    <link rel="stylesheet" href="/CSS/nav_bar.css" />
     <link rel="stylesheet" href="/CSS/blog_designs.css" />
+    <script src="landing.js"></script>
   </head>
+
   <body>
-    <header style="background-color: darkcyan">
+    <!-- NOTE: Same header tag to be used for each page.-->
+    <header style="background-color: lightblue">
       <img
         class="logo"
-        src="MEDIA/images/project_logo.png"
+        src="/MEDIA/images/project_logo.png"
         alt="meditato_logo"
       />
       <nav>
         <ul class="nav__links">
-          <li><a href="landing.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="podcast.html">Podcasts</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a style="color: white" href="landing.html">Blog</a></li>
+          <li><a href="/HTML/landing.html">Home</a></li>
+          <li><a href="/HTML/about.html">About</a></li>
+          <li><a href="/HTML/contact.html">Contact</a></li>
+          <li><a href="/HTML/podcast.html">Podcasts</a></li>
+          <li><a id="blog-section" href="/HTML/blog.html">Blog</a></li>
         </ul>
       </nav>
-      <a class="cta" href="login.html"><button>Login</button></a>
+
+      <a class="cta" href="/HTML/login.html"><button>Login</button></a>
     </header>
     <div class="container">
       <h1>The Meditato Blog</h1>
